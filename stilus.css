@@ -1,0 +1,36 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+.kiv {
+    background-color: antiquewhite;
+}
+.kepek {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  
+  }
+  .kep {
+    flex: 0 0 200px;
+  }
+  .kepek img {
+    flex: 0 0 200px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+  }
+  table {
+    border-collapse: collapse;
+    
+
+  }
+  th, td {
+    border-bottom: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+  }
